@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Trello Regression" verbose="1" >
+    <test name="Basic Tests" >
+        <classes>
+            <class name="com.trello.tests.TrelloTests" />
+        </classes>
+    </test>
+</suite>

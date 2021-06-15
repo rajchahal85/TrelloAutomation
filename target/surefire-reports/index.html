@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Trello_Regression" class="navigator-link">
+              <span class="suite-name border-passed">Trello Regression</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Trello_Regression" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Trello_Regression" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Trello_Regression" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Trello_Regression" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Trello_Regression" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Trello_Regression" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Trello_Regression" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Trello_Regression" class="hide-methods passed suite-Trello_Regression"> (hide)</a> <!-- hide-methods passed suite-Trello_Regression -->
+                      <a href="#" panel-name="suite-Trello_Regression" class="show-methods passed suite-Trello_Regression"> (show)</a> <!-- show-methods passed suite-Trello_Regression -->
+                    </span>
+                    <div class="method-list-content passed suite-Trello_Regression">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello_Regression" title="com.trello.tests.TrelloTests" class="method navigator-link" hash-for-method="createBoardTest">createBoardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello_Regression" title="com.trello.tests.TrelloTests" class="method navigator-link" hash-for-method="createCardTest">createCardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello_Regression" title="com.trello.tests.TrelloTests" class="method navigator-link" hash-for-method="createListToDo">createListToDo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello_Regression" title="com.trello.tests.TrelloTests" class="method navigator-link" hash-for-method="deleteBoardTest">deleteBoardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello_Regression" title="com.trello.tests.TrelloTests" class="method navigator-link" hash-for-method="getBoardDetailsTest">getBoardDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Trello_Regression" title="com.trello.tests.TrelloTests" class="method navigator-link" hash-for-method="moveCardTest">moveCardTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Trello_Regression -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Trello_Regression" class="panel Trello_Regression">
+          <div class="suite-Trello_Regression-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.trello.tests.TrelloTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createBoardTest">
+                  </a> <!-- createBoardTest -->
+                  <span class="method-name">createBoardTest</span>
+                  <em>
+(Create a new Board)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCardTest">
+                  </a> <!-- createCardTest -->
+                  <span class="method-name">createCardTest</span>
+                  <em>
+(Create a new Card)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createListToDo">
+                  </a> <!-- createListToDo -->
+                  <span class="method-name">createListToDo</span>
+                  <em>
+(Create a new List)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteBoardTest">
+                  </a> <!-- deleteBoardTest -->
+                  <span class="method-name">deleteBoardTest</span>
+                  <em>
+(Delete a board)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getBoardDetailsTest">
+                  </a> <!-- getBoardDetailsTest -->
+                  <span class="method-name">getBoardDetailsTest</span>
+                  <em>
+(Get Board Details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="moveCardTest">
+                  </a> <!-- moveCardTest -->
+                  <span class="method-name">moveCardTest</span>
+                  <em>
+(Move a Card)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Trello_Regression-class-passed -->
+        </div> <!-- panel Trello_Regression -->
+        <div panel-name="test-xml-Trello_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/rajeskumar/Documents/NoonWorkspace/TrelloRestAutomation/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Trello Regression&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Basic Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.trello.tests.TrelloTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Basic Tests --&gt;
+&lt;/suite&gt; &lt;!-- Trello Regression --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Trello_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Trello Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Basic Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Trello_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Trello Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Trello_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Trello Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Trello_Regression');
+function tableData_Trello_Regression() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'moveCardTest')
+data.setCell(0, 2, 'com.trello.tests.TrelloTests')
+data.setCell(0, 3, 4708);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createBoardTest')
+data.setCell(1, 2, 'com.trello.tests.TrelloTests')
+data.setCell(1, 3, 3899);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createCardTest')
+data.setCell(2, 2, 'com.trello.tests.TrelloTests')
+data.setCell(2, 3, 2761);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createListToDo')
+data.setCell(3, 2, 'com.trello.tests.TrelloTests')
+data.setCell(3, 3, 2181);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getBoardDetailsTest')
+data.setCell(4, 2, 'com.trello.tests.TrelloTests')
+data.setCell(4, 3, 2147);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteBoardTest')
+data.setCell(5, 2, 'com.trello.tests.TrelloTests')
+data.setCell(5, 3, 1704);
+window.suiteTableData['Trello_Regression']= { tableData: data, tableDiv: 'times-div-Trello_Regression'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-Trello_Regression">
+              </div> <!-- times-div-Trello_Regression -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Trello_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Trello Regression</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Trello_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Trello_Regression" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.trello.tests.TrelloTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initUrl</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createBoardTest</span>
+                <span class="method-start">682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createCardTest</span>
+                <span class="method-start">4653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createListToDo</span>
+                <span class="method-start">7416 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteBoardTest</span>
+                <span class="method-start">9599 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getBoardDetailsTest</span>
+                <span class="method-start">11307 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">moveCardTest</span>
+                <span class="method-start">13455 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
