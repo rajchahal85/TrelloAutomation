@@ -1,7 +1,0 @@
-com/trello/tests/TrelloTests.class
-com/trello/tests/TestBase.class
-com/trello/requests/RestClient.class
-com/trello/requests/RequestFactory.class
-com/trello/util/PropertyReader.class
-com/trello/specs/SpecificationFactory.class
-com/trello/tests/Actions.class
